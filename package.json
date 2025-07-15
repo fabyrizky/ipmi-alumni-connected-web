@@ -1,19 +1,11 @@
 {
-  "name": "ipmi-alumni-networking-web",
+  "name": "ipmi-alumni-networking",
   "version": "1.0.0",
-  "description": "AI-Powered Alumni Networking Platform for IPMI International Business School",
-  "private": true,
+  "homepage": ".",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "react-icons": "^4.12.0",
-    "framer-motion": "^10.16.16",
-    "axios": "^1.6.2",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,8 +15,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -38,8 +29,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }
