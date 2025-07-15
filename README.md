@@ -20,11 +20,11 @@ git clone https://github.com/yourusername/ipmi-alumni-networking-web.git
 cd ipmi-alumni-networking-web
 npm install
 
-2. **Development**
+2. Development
 npm start
 # Open http://localhost:3000
 
-3. **Build & Deploy**
+3. Build & Deploy
 npm run build
 # Deploy to Vercel automatically via GitHub integration
 
