@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "#2E8B57"          # Hijau elegant untuk IPMI
+backgroundColor = "#FFFFFF"        # Background putih bersih
+secondaryBackgroundColor = "#F8F9FA"  # Abu-abu terang untuk sidebar
+textColor = "#2C3E50"             # Dark blue untuk text
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
