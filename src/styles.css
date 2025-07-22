@@ -1,0 +1,22 @@
+/* style.css - Quick Enhancement */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+.stApp {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.main-header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #764ba2 100%) !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important;
+    backdrop-filter: blur(10px);
+}
+
+.match-card {
+    backdrop-filter: blur(20px) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.match-card:hover {
+    transform: translateY(-8px) !important;
+}
